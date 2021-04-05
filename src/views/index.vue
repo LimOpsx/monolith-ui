@@ -163,7 +163,6 @@ export default {
       }, self.timeout)
     },
     onopen() {
-      //开启心跳
       this.start();
     },
     onmessage(e) {
